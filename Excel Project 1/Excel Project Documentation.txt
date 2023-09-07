@@ -1,0 +1,23 @@
+Excel Project
+=============
+
+1. Cleaning the Data
+	1.1. Removing duplicates
+	1.2. Expanding M,S and M,F in marital status and gender
+	1.3. Changing Income to currency
+	1.4. Creating a new column called Age Group so that its easier while visualizing
+			1.4.1. Grouping using the formula =IF(L5>55,"Old",IF(L5>=31,"Middle Aged",IF(L5<31,"Adolescent","Invalid")))
+	
+2. Creating a dashboard
+	2.1. Creating Pivot Table
+			2.1.1. Looking at the average income of someone who buys a bike
+			2.1.2. Seeing the recommended charts
+			2.1.3. Adding the next pivot table - commute distance v. bike bought
+			2.1.4. Adding the last pivot table - age groups
+			
+	2.2. Copying and pasting all the pivot charts into a new sheet
+	2.3. Removing Gridlines
+	2.4. Aligning all the charts
+	2.5. Inserting Slicers to see married vs single, education and region
+	
+3. Complete	
